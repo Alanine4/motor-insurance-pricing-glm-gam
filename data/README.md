@@ -1,6 +1,6 @@
 # Input data
 
-The course dataset is not redistributed in this repository. The scripts expect these files in `data/`:
+The dataset is not redistributed in this repository. The scripts expect these files in `data/`:
 
 | File | Content |
 |---|---|

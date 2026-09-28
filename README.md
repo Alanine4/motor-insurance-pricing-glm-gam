@@ -2,7 +2,7 @@
 
 Technical tariff for a Belgian motor third-party liability portfolio of 163,657 policies, written in R. Claim frequency and claim severity are modelled separately, first with generalized linear models and then with generalized additive models that add a smooth effect of policyholder age and a spatial effect based on the policyholder's postal code. Both approaches end in a tariff table with a pure premium for every combination of rating factors, plus a safety loading.
 
-Coursework project for Data Science for Non-Life Insurance, Master of Actuarial and Financial Engineering, KU Leuven (2025). The full write-up is in [`report/Motor_Insurance_Pricing_Report.pdf`](report/Motor_Insurance_Pricing_Report.pdf).
+The full write-up is in [`report/Motor_Insurance_Pricing_Report.pdf`](report/Motor_Insurance_Pricing_Report.pdf).
 
 <p align="center">
   <img src="figures/spatial_gam_frequency.png" width="48%" alt="Predicted claim frequency by postal code from the spatial GAM">
@@ -21,7 +21,7 @@ Each record is one policyholder observed for up to one year, with the exposure, 
 | Claim frequency | 13.93% per policy year |
 | Average claim severity | EUR 1,622.05 |
 
-The dataset was provided for the course and is not included here. [`data/README.md`](data/README.md) lists the files the scripts expect.
+The dataset is not included here. [`data/README.md`](data/README.md) lists the files the scripts expect.
 
 <p align="center">
   <img src="figures/exposure_density_map.png" width="60%" alt="Exposure per unit area by postal code">
