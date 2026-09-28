@@ -1,0 +1,7 @@
+# Course data is not redistributed
+data/*
+!data/README.md
+Rplots.pdf
+.Rhistory
+.RData
+.Rproj.user/
